@@ -1,0 +1,525 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 30px;
+    width: auto;
+    overflow: auto;
+    border: 1px solid #888;
+    max-width: 550px;
+    border-radius: 10px;
+    margin: 15% auto;
+}
+.modal-content a
+{
+    text-decoration: none;
+    border: 2px solid transparent !important;
+    box-shadow: none;
+    margin-bottom: 2px;
+
+}
+
+.modal-content h3
+{
+    margin-top: 0px!important;
+    padding-top: 0px!important;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .modal-content{
+        width: 96%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .modal-content{
+        margin: 0 0 0 0;
+        width: 100%;
+        border-radius: unset;
+        padding: 20px;
+    }
+}
+
+
+.droidmax-feedback-form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 15px 30px;
+}
+
+
+
+
+
+.droidmax-container {
+    box-shadow: 0px 3px 20px 0px rgba(0,64,128,0.1);
+    text-align: center;
+    background: white;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    overflow: hidden;
+    padding: 1.5em;
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .droidmax-holder {
+        margin: 30px auto 50px auto;
+        width: 50%;
+    }
+    .droidmax-title {
+        margin-right: 15px;
+    }
+}
+
+
+.droidmax-inactive {
+    box-shadow: none;
+    opacity: 0.5;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.droidmax-title {
+    margin-bottom: -20px;
+    vertical-align: center;
+}
+
+droidmax{
+    cursor: pointer;
+}
+
+
+.droidmax-emoji{
+    -webkit-align-items: center; /* Safari 7.0+ */
+    align-items: center;
+    margin-bottom: -20px;
+    margin-top: 35px;
+}
+
+.droidmax-emoji droidmax{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px 1px rgba(0,0,0,.15);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition:    all 0.1s ease-in-out;
+    -ms-transition:     all 0.1s ease-in-out;
+    -o-transition:      all 0.1s ease-in-out;
+    transition:         all 0.1s ease-in-out;
+
+    transition: transform .2s;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.droidmax-emoji img{
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+droidmax:hover{
+    transform: scale(1.5);
+}
+
+
+.droidmax-response-select
+{
+    padding: 10px;
+    display: block;
+    color: #2584db;
+    border-radius: 5px;
+}
+.droidmax-response-select:hover
+{
+    border: 2px solid #e0e5e6;
+}
+
+
+
+.droidmax-popup-1-content p
+{
+    margin-bottom: 3px;
+}
+
+.droidmax-close-popup {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+}
+
+.droidmax-close-popup:hover,
+.droidmax-close-popup:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.droidmax-poopup-content-3{text-align: center;}
+.droidmax-poopup-content-3 p{text-align: left;}
+
+.thank-you{
+    margin-bottom: 10px;
+}
+span.droidmax-responses{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
+.validate-input input{
+    border-color: transparent !important;
+}
+
+.validate-input textarea {
+    border-color: transparent !important;
+}
+
+.validate-input textarea:focus, .validate-input input:focus {
+    border-color: transparent !important;
+}
+
+.validate-input input:focus::-webkit-input-placeholder { color:transparent; }
+.validate-input input:focus:-moz-placeholder { color:transparent; }
+.validate-input input:focus::-moz-placeholder { color:transparent; }
+.validate-input input:focus:-ms-input-placeholder { color:transparent; }
+
+.validate-input textarea:focus::-webkit-input-placeholder { color:transparent; }
+.validate-input textarea:focus:-moz-placeholder { color:transparent; }
+.validate-input textarea:focus::-moz-placeholder { color:transparent; }
+.validate-input textarea:focus:-ms-input-placeholder { color:transparent; }
+
+.validate-input input::-webkit-input-placeholder {
+
+    color: #555555;
+}
+.validate-input input:-moz-placeholder {
+
+    color: #555555;
+}
+.validate-input input::-moz-placeholder {
+
+    color: #555555;
+}
+.validate-input input:-ms-input-placeholder {
+
+    color: #555555;
+}
+
+.validate-input textarea::-webkit-input-placeholder {
+
+    color: #555555;
+}
+.validate-input textarea:-moz-placeholder {
+    color: #555555;
+}
+.validate-input textarea::-moz-placeholder {
+
+    color: #555555;
+}
+.validate-input textarea:-ms-input-placeholder {
+
+    color: #555555;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+iframe {
+    border: none !important;
+}
+
+.contact100-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.contact100-form-title {
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.rs1-wrap-input100 {
+    width: calc((100% - 30px) / 2);
+}
+
+.label-input100 {
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.5;
+    padding-left: 5px;
+}
+
+.input100 {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    padding: 0 5px;
+}
+
+.focus-input100 {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.focus-input100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+    background: #ff4b5a;
+}
+
+input.input100 {
+    height: 40px;
+}
+
+
+textarea.input100 {
+    min-height: 110px;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+
+
+.input100:focus + .focus-input100::before {
+    width: 100%;
+}
+
+.has-val.input100 + .focus-input100::before {
+    width: 100%;
+}
+
+
+.container-contact100-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 150px;
+    height: 50px;
+    background-color: #ff4b5a;
+    border-radius: 25px;
+
+
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+
+    box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -moz-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -webkit-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -o-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+    -ms-box-shadow: 0 10px 30px 0px rgba(255, 75, 90, 0.5);
+}
+
+.contact100-form-btn i {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.contact100-form-btn:hover {
+    background-color: #333333;
+    box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -moz-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -webkit-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -o-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+    -ms-box-shadow: 0 10px 30px 0px rgba(51, 51, 51, 0.5);
+}
+
+.contact100-form-btn:hover i {
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+
+@media (max-width: 992px) {
+    .wrap-contact100 {
+        padding: 82px 80px 33px 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .rs1-wrap-input100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .wrap-contact100 {
+        padding: 82px 15px 33px 15px;
+    }
+}
+
+
+
+.validate-input {
+    position: relative;
+}
+
+.alert-validate::before {
+    content: attr(data-validate);
+    position: absolute;
+    max-width: 70%;
+    background-color: #fff;
+    border: 1px solid #c80000;
+    border-radius: 2px;
+    padding: 4px 25px 4px 10px;
+    top: 58%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 2px;
+    pointer-events: none;
+
+
+    color: #c80000;
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+
+    visibility: hidden;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+
+.alert-validate::after {
+    content: "\f06a";
+    display: block;
+    position: absolute;
+    color: #c80000;
+    font-size: 16px;
+    top: 58%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 8px;
+}
+
+.alert-validate:hover:before {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 992px) {
+    .alert-validate::before {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.contact100-more {
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.5;
+}
+
+.contact100-more-highlight {
+    color: #ff4b5a;
+}
+
